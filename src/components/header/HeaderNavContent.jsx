@@ -295,8 +295,8 @@ const HeaderNavContent = () => {
             className={`${
               isActiveParentChaild(blogItems, pathname) ? "current" : ""
             } dropdown`}
-          >
-            <span className="text-white font-semibold" style={{fontWeight:"600"}}>Resources</span>
+          ><Link to="https://blog.abroadium.com/">
+            <span className="text-white font-semibold" style={{fontWeight:"600"}}>Blog</span></Link>
             <ul>
               {blogItems.map((item, i) => (
                 <li
